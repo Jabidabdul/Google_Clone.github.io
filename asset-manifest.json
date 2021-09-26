@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Jabidabdul/Google_Clone.github.io.git/static/css/main.92db9a25.chunk.css",
-    "main.js": "/Jabidabdul/Google_Clone.github.io.git/static/js/main.a85b4b88.chunk.js",
-    "main.js.map": "/Jabidabdul/Google_Clone.github.io.git/static/js/main.a85b4b88.chunk.js.map",
-    "runtime-main.js": "/Jabidabdul/Google_Clone.github.io.git/static/js/runtime-main.d5687c9e.js",
-    "runtime-main.js.map": "/Jabidabdul/Google_Clone.github.io.git/static/js/runtime-main.d5687c9e.js.map",
-    "static/js/2.a7546381.chunk.js": "/Jabidabdul/Google_Clone.github.io.git/static/js/2.a7546381.chunk.js",
-    "static/js/2.a7546381.chunk.js.map": "/Jabidabdul/Google_Clone.github.io.git/static/js/2.a7546381.chunk.js.map",
-    "static/js/3.f950e967.chunk.js": "/Jabidabdul/Google_Clone.github.io.git/static/js/3.f950e967.chunk.js",
-    "static/js/3.f950e967.chunk.js.map": "/Jabidabdul/Google_Clone.github.io.git/static/js/3.f950e967.chunk.js.map",
-    "index.html": "/Jabidabdul/Google_Clone.github.io.git/index.html",
-    "static/css/main.92db9a25.chunk.css.map": "/Jabidabdul/Google_Clone.github.io.git/static/css/main.92db9a25.chunk.css.map",
-    "static/js/2.a7546381.chunk.js.LICENSE.txt": "/Jabidabdul/Google_Clone.github.io.git/static/js/2.a7546381.chunk.js.LICENSE.txt"
+    "main.css": "/Google_Clone.github.io/static/css/main.92db9a25.chunk.css",
+    "main.js": "/Google_Clone.github.io/static/js/main.a85b4b88.chunk.js",
+    "main.js.map": "/Google_Clone.github.io/static/js/main.a85b4b88.chunk.js.map",
+    "runtime-main.js": "/Google_Clone.github.io/static/js/runtime-main.87a9b609.js",
+    "runtime-main.js.map": "/Google_Clone.github.io/static/js/runtime-main.87a9b609.js.map",
+    "static/js/2.a7546381.chunk.js": "/Google_Clone.github.io/static/js/2.a7546381.chunk.js",
+    "static/js/2.a7546381.chunk.js.map": "/Google_Clone.github.io/static/js/2.a7546381.chunk.js.map",
+    "static/js/3.f950e967.chunk.js": "/Google_Clone.github.io/static/js/3.f950e967.chunk.js",
+    "static/js/3.f950e967.chunk.js.map": "/Google_Clone.github.io/static/js/3.f950e967.chunk.js.map",
+    "index.html": "/Google_Clone.github.io/index.html",
+    "static/css/main.92db9a25.chunk.css.map": "/Google_Clone.github.io/static/css/main.92db9a25.chunk.css.map",
+    "static/js/2.a7546381.chunk.js.LICENSE.txt": "/Google_Clone.github.io/static/js/2.a7546381.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5687c9e.js",
+    "static/js/runtime-main.87a9b609.js",
     "static/js/2.a7546381.chunk.js",
     "static/css/main.92db9a25.chunk.css",
     "static/js/main.a85b4b88.chunk.js"
