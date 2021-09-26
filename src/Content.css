@@ -1,0 +1,114 @@
+.Google{
+    text-align: center;
+    /* background-color: blueviolet; */
+    height: 300px;
+    font-family:sans-serif ;
+    display: block;
+}
+.Google_tag{
+    font-weight: 0;
+    opacity: 0.8;
+    font-size: 100px;
+    font-weight:500;
+    
+}
+.Google_tag #G{
+    
+    color: rgb(32, 84, 179);
+}
+.Google_tag #o{
+    color: red;
+}
+.Google_tag #o_{
+    color: yellow;
+}
+.Google_tag #g{
+    color: rgb(32, 84, 179);
+}
+.Google_tag #l{
+    color: green;
+}
+.Google_tag #e{
+    
+    color:red;
+}
+.Google .main{
+    /* background-color: rgb(46, 114, 46); */
+    height: 150px;
+
+}
+
+.Google .main{
+    align-self: center;
+    text-align: left;
+    border-radius: 40px;
+    position: relative;
+    left:30px;
+    color: black;
+    padding-left: 20px;
+    border-color:gray;
+    border-width: 0.2px;
+    outline:none;
+    /* background-color: green; */
+    margin-top: 0%;
+    width: 580px;
+    height: 40px;
+    margin:30px 0px 20px 0px;
+}
+.Google .main input{
+    width: 450px;
+    border:none;
+    outline:none;
+    height: 38px;
+    font-size: 15px;
+}
+.Google .main:hover{
+    border:none;
+    outline: gray;
+    /* box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000; */
+    box-shadow: 0px 0px 20px rgb(29, 27, 27);
+    /* opacity: 10px; */
+}
+
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: cadetblue; */
+    margin-top: 0px;
+    height: 65px;
+    
+}
+.search button{
+    width: 120px;
+    height: 35px;
+    border:10px;
+    opacity: 5;
+    outline:none;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-inline:7px;
+}
+.search button:hover{
+    border:5px;
+    outline: gray;
+    
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.lang a{
+    height: 50px;
+    padding-top: 20px;
+    font-size: 13px;
+    padding-inline: 5px;
+    text-decoration: none;
+    /* background-color: indigo; */
+}
+.lang a:hover{
+
+    text-decoration: underline;
+}
+@media only screen and(max-width:550px){
+    .Google .main{
+        
+    }
+}

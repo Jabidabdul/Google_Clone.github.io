@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
 
-function App() {
+export default function App() {
+
+  let [time, setTime] = React.useState('');
+  let [back, setBack] = React.useState({});
+  React.useEffect(() => {
+    let time = setInterval(() => {
+      let date = new Date().toLocaleString();
+      let seconds = new Date().getSeconds();
+      setTime(date);
+
+      let even = {
+        backgroundColor: "black",
+        color: 'white',
+        height: "100vh",
+        width: "100%"
+      };
+      let odd = {
+        backgroundColor: "white",
+        color: 'black',
+        height: "100vh",
+        width: "100%"
+      };
+      if (seconds % 2 === 0) {
+        // console.log(back)
+        setBack(even);
+      }
+      else setBack(odd)
+      return clearInterval(time)
+    }, 1000);
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div style={back}>
+      {time}
 
-export default App;
+    </div>
+  )
+}
